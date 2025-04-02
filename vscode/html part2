@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Noticias</title>
+    
+    <style>
+       body { font-family: Arial, sans-serif; text-align: center; }
+        .noticia { border: 1px solid black; padding: 10px; margin: 10px; }
+        table { margin: auto; border-collapse: collapse; }
+        table, th, td { border: 1px solid black; padding: 5px; }
+        .manchetes-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .manchete {
+            border: 2px solid black;
+            padding: 40px;
+             }
+             h1, h2{
+                position:relative;
+                bottom: 20px;
+             }
+    
+    </style>
+</head>
+<body>
+          
+    <h1>Últimas Notícias</h1>
+    <div class="noticia">
+        <h2>Título da Notícia 1</h2>
+        <p>Descrição da notícia 1.</p>
+    </div>
+    <div class="noticia">
+        <h2>Título da Notícia 2</h2>
+        <p>Descrição da notícia 2.</p>
+    </div> 
+    
+    
+    
+    
+   
+    
+    <h2>Principais Manchetes</h2>
+    <div class="manchetes-container">
+        <div class="manchete">
+            <h3>Nova tecnologia promete mudar tudo</h3>
+        </div>
+        <div class="manchete">
+            <h3>Descoberto bug misterioso</h3>
+        </div>
+    </div>
+</body>
+</html>

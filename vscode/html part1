@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <title>Apresentação</title>
+</head><body>
+    <h1>Meu Nome</h1>
+    <p>Oi! Eu sou o João e gosto de tecnologia e programação.</p><img src="https://www.w3schools.com/howto/img_avatar.png" width="150">
+
+<h2>Minhas Informações</h2>
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+        <th>Profissão</th>
+    </tr>
+    <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>Belo Horizonte</td>
+        <td>Desenvolvedor</td>
+    </tr>
+</table>
+
+<h2>Sobre mim</h2>
+<p>Gosto de aprender novas tecnologias e jogar videogame.</p>
+
+<h2>Contato</h2>
+<form>
+    <label>Nome:</label>
+    <input type="text"><br>
+    
+    <label>Email:</label>
+    <input type="email"><br>
+    
+    <label>Mensagem:</label><br>
+    <textarea></textarea><br>
+    
+    <input type="submit" value="Enviar">
+</form>
+
+</body></html>
